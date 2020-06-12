@@ -4,8 +4,9 @@ import { screens, sizes } from "../../../styles/variables";
 
 export const ActionDiv = styled.div`
   width: ${sizes.desktop};
-  margin: 3rem auto 0;
+  margin: 7rem auto 0;
   @media ${screens.mobile} {
+    margin: 10rem auto 0;
     width: 28rem;
   }
   div {
@@ -27,12 +28,12 @@ export const ActionDiv = styled.div`
 
 export const SearchFilterDiv = styled.div`
   width: ${sizes.desktop};
-  margin: 3rem auto 0;
+  margin: 7rem auto 0;
   display: flex;
   justify-content: space-between;
   @media ${screens.mobile} {
     width: ${sizes.mobileRes};
-    margin-top: 3rem;
+    margin-top: 10rem;
     flex-direction: column;
   }
   div:nth-of-type(1) {

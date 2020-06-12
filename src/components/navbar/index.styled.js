@@ -6,6 +6,9 @@ export const NavbarDiv = styled.div`
   width: 100%;
   background: ${(props) => props.theme.navbar};
   box-shadow: ${(props) => props.theme.boxShadow};
+  position: fixed;
+  top: 0;
+  left: 0;
   div {
     width: ${sizes.desktop};
     margin: 0 auto;
